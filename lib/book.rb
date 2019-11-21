@@ -1,12 +1,14 @@
 #learn spec/01_book_spec.rb
 
+#learn spec/02_shoe_spec.rb
+
 class Book 
-    attr_accessor :title, :author, :genre, :page_count
-    attr_reader :title 
-    
     def initialize(title)
         @title = title 
     end 
+    
+    attr_accessor :title, :author, :genre, :page_count
+    attr_reader :title 
 
     # def title
     #     @title 
